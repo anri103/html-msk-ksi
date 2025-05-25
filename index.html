@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/fancybox.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,41 +16,26 @@
 
     <!-- header -->
     <header class="header">
-        <div class="container"></div>
+        <div class="container">
+            <img src="img/logo.svg" class="site-logo" alt="logo">
+        </div>
     </header>
 
     <!-- main -->
     <main class="main">
 
         <!-- section__hero -->
-        <section class="section section__hero">
+        <section class="section section__hero" style="background-image: url(img/hero/1.jpg);">
             <div class="container">
-                <div class="section-heading">
-                    <h1 class="section-title">Производство дизайнерской мебели</h1>
-                    <div class="section-subtitle">Воплощаем в жизнь самые смелые идеи</div>
-                </div>
-                <div class="section-body"></div>
-            </div>
-        </section>
-
-        <!-- section__services -->
-        <section class="section section__services">
-            <div class="container">
-                <div class="section-heading">
-                    <h2 class="section-title">Спецификация на мебель</h2>
-                </div>
-                <div class="section-body">
-                    <div class="row gy-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
-                        <div class="col">
-                            <article class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">Зеркало в прихожую с подсветкой</h3>
-                                    <div>Стоимость производства: 42 100 руб.</div>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="small">Необходим выезд специалиста для замера</div>
-                                </div>
-                            </article>
+                <div class="hero-wrapper">
+                    <div class="hero-heading">
+                        <h1 class="section-title">Производство дизайнерской мебели</h1>
+                        <div class="section-subtitle">Воплощаем в жизнь самые смелые идеи</div>
+                    </div>
+                    <div class="hero-body">
+                        <div class="hero-btn-group">
+                            <a href="#" class="btn btn-outline-primary btn-lg">Заказать</a>
+                            <a href="#projects" class="btn btn-secondary btn-lg">Портфолио</a>
                         </div>
                     </div>
                 </div>
@@ -59,35 +45,204 @@
         <!-- section__about -->
         <section class="section section__about">
             <div class="container">
-                <div class="section-heading">
-                    <h2 class="section-title">О нашей компании</h2>
-                </div>
-                <div class="section-body">
-                    <p>Компания «Кухонный стиль интерьеров» - это производство корпусной мебели распределенное по нескольким направлениям: производство корпусов и фасадов, столярный цех, малярный цех, цех по производству изделий из камня.</p>
-                    <p>Мы специализируемся на производстве мебели по дизайнерским проектам со сложными фасадами в эмали и шпоне. В удобной обстановке мы согласуем выкрасы цветов и подберем лучшие материалы для вашего проекта.</p>
+                <div class="row gy-4 align-items-center justify-content-between">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="section-heading">
+                            <h2 class="section-title">О компании</h2>
+                        </div>
+                        <div class="section-body">
+                            <p>Компания «Кухонный стиль интерьеров» - это производство корпусной мебели распределенное по нескольким направлениям: производство корпусов и фасадов, столярный цех, малярный цех, цех по производству изделий из камня.</p>
+                            <p>Мы специализируемся на производстве мебели по дизайнерским проектам со сложными фасадами в эмали и шпоне. В удобной обстановке мы согласуем выкрасы цветов и подберем лучшие материалы для вашего проекта.</p>
+                        </div>
+                        <div class="section-btn-group">
+                            <a href="#" class="read-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-image">
+                            <img src="img/about/1.jpg" class="img-fluid" alt="О нас">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- section__advantages -->
         <section class="section section__advantages">
-            <div class="container">
-                <div class="section-heading">
-                    <h2 class="section-title">Преимущества</h2>
+            <div class="advantages-image" style="background-image: url(img/advantages/1.webp);">
+                <div class="container">
+                    <div class="section-heading">
+                        <h2 class="section-title">Наш преимущества</h2>
+                    </div>
                 </div>
-                <div class="section-body">
+            </div>
+            <div class="advantages-items">
+                <div class="container">
                     <div class="row gy-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
                         <div class="col">
-                            <div>Индивидуальность</div>
-                            <div>У нас нет шаблонных решений, каждый проект для нас индивидуален</div>
+                            <article class="item-advantage">
+                                <div class="item-body">
+                                    <h3>Индивидуальность</h3>
+                                    <p>У нас нет шаблонных решений, каждый проект для нас индивидуален</p>
+                                </div>
+                            </article>
                         </div>
                         <div class="col">
-                            <div>Команда</div>
-                            <div>У нас небольшая команда профессионалов и в этом наше преимущество</div>
+                            <article class="item-advantage">
+                                <div class="item-body">
+                                    <h3>Команда</h3>
+                                    <p>У нас небольшая команда профессионалов и в этом наше преимущество</p>
+                                </div>
+                            </article>
                         </div>
                         <div class="col">
-                            <div>Собственное производство</div>
-                            <div>Мы не зависим от фабрик, которые диктуют нам свой формат качества</div>
+                            <article class="item-advantage">
+                                <div class="item-body">
+                                    <h3>Собственное производство</h3>
+                                    <p>Мы не зависим от фабрик, которые диктуют нам свой формат качества</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section__projects -->
+        <section class="section section__projects" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="section-title">Наши проекты</h2>
+                    <div class="section-subtitle">Воплощаем в жизнь самые смелые идеи</div>
+                </div>
+                <div class="swiper swiperProjects">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item-project">
+                                <div class="item-image">
+                                    <a href="#">
+                                        <img src="img/projects/1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="item-body">
+                                    <div class="item-title">
+                                        <a href="#">Beautiful Corner</a>
+                                    </div>
+                                    <div class="item-btn">
+                                        <a href="#" class="read-more">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-project">
+                                <div class="item-image">
+                                    <a href="#">
+                                        <img src="img/projects/2.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="item-body">
+                                    <div class="item-title">
+                                        <a href="#">Beautiful Corner</a>
+                                    </div>
+                                    <div class="item-btn">
+                                        <a href="#" class="read-more">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-project">
+                                <div class="item-image">
+                                    <a href="#">
+                                        <img src="img/projects/1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="item-body">
+                                    <div class="item-title">
+                                        <a href="#">Beautiful Corner</a>
+                                    </div>
+                                    <div class="item-btn">
+                                        <a href="#" class="read-more">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-project">
+                                <div class="item-image">
+                                    <a href="#">
+                                        <img src="img/projects/2.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="item-body">
+                                    <div class="item-title">
+                                        <a href="#">Beautiful Corner</a>
+                                    </div>
+                                    <div class="item-btn">
+                                        <a href="#" class="read-more">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section__contacts -->
+        <section class="section section__contacts">
+            <div class="parallax-image" style="background-image: url(img/parallax/1.jpg);"></div>
+            <div class="section-body">
+                <div class="container">
+                    <div class="contacts-area">
+                        <div class="section-heading">
+                            <h2 class="section-title">Контакты</h2>
+                            <div class="section-subtitle">Желаете оживить ваш интерьер утонченными штрихами дизайнерской мебели? Не теряйте время - свяжитесь с нами прямо сейчас! Наши специалисты готовы превратить ваши идеи в реальность. Не упустите шанс создать уникальное пространство вместе с нами!</div>
+                        </div>
+                        <div class="contacts-items">
+                            <div class="row gy-3 gx-lg-3 row-cols-1 row-cols-md-2 row-cols-lg-2">
+                                <div class="col">
+                                    <article class="item-contact">
+                                        <div class="item-body">
+                                            <h3>Телефон:</h3>
+                                            <p><a href="tel:+79255447847">+7 (925) 544-78-47</a></p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="item-contact">
+                                        <div class="item-body">
+                                            <h3>Телефон дизайнера:</h3>
+                                            <p><a href="tel:+79015478052">+7 (901) 547-80-52</a></p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="item-contact">
+                                        <div class="item-body">
+                                            <h3>Почта:</h3>
+                                            <p><a href="mailto:ksi.msk@list.ru">ksi.msk@list.ru</a></p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="item-contact">
+                                        <div class="item-body">
+                                            <h3>Столярный цех:</h3>
+                                            <p>Московская область,<br> п. Константиново, ул. Новая, 3</p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="item-contact">
+                                        <div class="item-body">
+                                            <p><a href="#">@kitchen_style_interior</a></p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,7 +250,7 @@
         </section>
 
         <!-- section__contacts -->
-        <section class="section section__contacts">
+        <!-- <section class="section section__contacts">
             <div class="container">
                 <div class="section-heading">
                     <h2 class="section-title">Контакты</h2>
@@ -124,22 +279,50 @@
                     <div><a href="#">@kitchen_style_interior</a></div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </main>
 
     <!-- footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="row gy-3">
-                <div class="col-lg-4 text-center text-lg-start"></div>
-                <div class="col-lg-4 text-center text-lg-center"></div>
-                <div class="col-lg-4 text-center text-lg-end"></div>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-lg-4 text-center text-lg-start">
+                        <p class="display-3 fw-bold">LOGO</p>
+                        <p>Donec nunc nunc, gravida vitae diam vel, varius interdum erat uisque a nunc vel diam</p>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-center">
+                        <a href="#">@kitchen_style_interior</a>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div>
+                            <p>
+                                <a href="tel:+79255447847">+7 (925) 544-78-47</a>
+                            </p>
+                            <p>
+                                <a href="tel:+79015478052">+7 (901) 547-80-52</a>
+                            </p>
+                            <p>
+                                <a href="mailto:ksi.msk@list.ru">ksi.msk@list.ru</a>
+                            </p>
+                            <p>Московская область, п. Константиново, ул. Новая, 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        © 2025 KSI. Все права защищены.
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
     
-    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/fancybox.umd.js"></script>
     <script src="js/main.js"></script>
